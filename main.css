@@ -1,0 +1,38 @@
+.cards {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.card {
+  background-color: green;
+  margin: 10px;
+  /* align-content: center; */
+  /* display: flex; */
+}
+
+.card-img-top {
+  height: 200px;
+  width: 200px;
+  margin-top: 10px;
+}
+
+header{
+  text-align: center;
+  border: solid 1px lightblue;
+}
+
+.lower-card-text{
+  background-color: grey;
+  text-align: center;
+}
+
+ .section-3-header{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+h3{
+  font-size: medium;
+  justify-content: center;
+  padding: 5px;
+}
