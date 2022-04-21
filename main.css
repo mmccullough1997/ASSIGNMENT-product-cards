@@ -14,25 +14,61 @@
   height: 200px;
   width: 200px;
   margin-top: 10px;
+  margin-bottom: 10px;
+  z-index: 1;
 }
 
-header{
+.main-header{
   text-align: center;
   border: solid 1px lightblue;
 }
 
-.lower-card-text{
-  background-color: grey;
+.section-2-header{
   text-align: center;
+  border: solid 1px white;
 }
 
  .section-3-header{
+  text-align: center;
   margin-top: 5px;
   margin-bottom: 5px;
+  border: solid 1px white;
 }
 
-h3{
+/* .section-2-header h3{
   font-size: medium;
   justify-content: center;
   padding: 5px;
+  margin-bottom: 10px;
+} */
+
+p{
+  text-align: center;
+}
+
+.card-section-2{
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-section-3{
+  font-weight: bold;
+  text-align: center;
+}
+
+.availability {
+  background-color: darkgray;
+  color: yellow;
+}
+
+.img{
+  position: absolute;
+  z-index: 2;
+  margin: auto;
+}
+
+@media (max-width: 1660px) {
+  .cards{
+    flex: 1 21%;
+  }
 }
